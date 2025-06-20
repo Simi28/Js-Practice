@@ -58,3 +58,5 @@ let obj2 = obj1; // Copying reference, obj2 points to the same object
 console.log("obj1:", obj1, "obj2:", obj2); // Output: obj1: { name: 'Alice' } obj2: { name: 'Alice' }
 obj2.name = "Bob"; // Changing obj2 affects obj1
 console.log("After changing obj2, obj1:", obj1, "obj2:", obj2); // Output: obj1: { name: 'Bob' } obj2: { name: 'Bob' }
+
+let obj3 = { name: "Charlie" }; // New object in heap
